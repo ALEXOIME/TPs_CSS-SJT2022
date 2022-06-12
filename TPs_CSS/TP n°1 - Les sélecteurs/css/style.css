@@ -1,0 +1,179 @@
+/*---------- index.html ---------*/
+    /*1. Corps de pages*/
+    /*2. Barre de navigation*/
+    /*3. La liste non ordonné*/
+    /*4. Titre principal*/
+    /*5. Contenu principal*/
+    /*6. Pied de page*/
+
+/*---------- contact.html ---------*/
+    /*1. Titre pricipal dans le header*/
+    /*2. Formulaire */
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #F6F6F6;                  /*1. Corps de page*/
+}
+
+nav{
+    width: 100%;
+    background-color: #359E7B;                  /*2. Barre de navigation*/
+}
+
+.contact{
+    text-decoration: none;
+}
+
+ul{
+    text-align: right;                          /*La liste Non ordonné*/
+    padding: 15px;
+}
+
+li{
+    display: inline-block;
+    color: #F6F6F6;
+    padding: 15px;
+    transition: 0.2s;
+}
+
+li:hover{
+    transition: 0.3s;
+    color: #B7B7B7;
+}
+
+h1{
+    font-size: 35px;
+}
+
+body p, h1, h3, h2, a{
+    font-family: sans-serif;                       /*3. Contenu principal*/
+}
+
+body .title{
+    text-transform: uppercase;
+}
+
+.tous{
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+h1{
+    color: #359E7B;
+    text-align: center;
+    margin: 50px;
+}
+
+h2{
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #006083;
+}
+
+h3{
+    text-align: left;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #006083;
+}
+
+
+.datatime{
+    color: grey;
+}
+
+main a{
+    color: #359E7B;
+    transition: 0.2s;
+    text-align: right;
+    display: block;
+}
+
+main a:hover{
+    color: #47D8A8;
+    transition: 0.2s;
+}
+
+.moreAndmore{
+    display: block;
+    background-color: #359E7B;
+    max-width: 250px;
+    color: #FFFFFF;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 45px auto;
+    border-radius: 5px;
+    text-align: center;
+    transition: 0.2s;
+}
+
+footer{
+    position: relative;
+    background-color: darkgray;
+    padding: 15px;
+    text-align: center;
+}
+
+form{
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.input{
+    display: block;
+    border: none;
+    border-bottom: 2px solid #359E7B;
+    font-size: 25px;
+    font-family: sans-serif;
+    outline: none;
+    padding: 15px;
+    width: 100%;
+    resize: none;
+    box-sizing: border-box;
+    margin: 15px 0px;
+    background: transparent;
+}
+
+#input_id{
+    height: 300px;
+    border: 2px solid #359E7B;
+}
+
+.envoie{
+    display: block;
+    border: none;
+    font-size: 25px;
+    background-color: #359E7B;
+    border-radius: 5px;
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    margin: 15px 0px;
+    width: 100%;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.envoie:hover, .moreAndmore:hover{
+    background-color: #47D8A8;
+    color: #FFFFFF;
+    transition: 0.3s;
+}
+
+footer a{
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+footer a:hover{
+    color: #006083;
+    text-decoration: none;
+    transition: 0.3s;
+}
