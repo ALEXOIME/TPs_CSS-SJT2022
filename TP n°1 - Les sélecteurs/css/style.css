@@ -17,6 +17,10 @@ body{
     background-color: #F6F6F6;                  /*1. Corps de page*/
 }
 
+header{
+    top: 0px;
+}
+
 nav{
     width: 100%;
     background-color: #359E7B;                  /*2. Barre de navigation*/
@@ -29,6 +33,7 @@ nav{
 ul{
     text-align: right;                          /*La liste Non ordonné*/
     padding: 15px;
+    margin: 0;
 }
 
 li{
@@ -36,6 +41,7 @@ li{
     color: #F6F6F6;
     padding: 15px;
     transition: 0.2s;
+    cursor: pointer;
 }
 
 li:hover{
@@ -94,7 +100,7 @@ main a{
 }
 
 main a:hover{
-    color: #47D8A8;
+    color: #359e7ba6;
     transition: 0.2s;
 }
 
@@ -161,7 +167,7 @@ form{
 }
 
 .envoie:hover, .moreAndmore:hover{
-    background-color: #47D8A8;
+    background-color: #359e7ba6;
     color: #FFFFFF;
     transition: 0.3s;
 }
