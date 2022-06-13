@@ -1,0 +1,133 @@
+/* TABLE DES STYLES */
+/*                  */
+/* GLOBALS          */
+/* HEADER & NAV     */
+/* MAIN             */
+/*                  */
+/*                  */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    transition: 0.2s;
+}
+
+h1,h2{
+    margin: 40px 0;
+}
+
+/* HEADER & MENU DE NAVIGATION */
+
+main, header{
+    padding-left: 20px;
+}
+
+nav{
+    padding: 20px;
+}
+
+header{
+    background-color: black;
+    color: white;
+}
+
+header nav{
+    max-width: 1150px;
+    margin: 0 auto;
+    display: flex;
+    padding: 20px 0;
+}
+
+header nav .logo{
+    text-transform: uppercase;
+}
+
+header nav p{
+    border: 2px solid white;
+    width: fit-content;
+    padding: 15px 30px;
+    margin-bottom: 20px;
+}
+
+header nav ul{
+    margin: auto;
+}
+
+header nav li{
+    list-style-type: none;
+}
+
+header nav a{
+    display: block;
+    padding: 15px 30px;
+    color: white;
+}
+
+/* MAIN */
+
+main{
+    max-width: 1150px;
+    margin: auto;
+}
+
+main .justeLeTexte{
+    text-align: justify;
+}
+
+main img{
+    width: 100%;
+    font-size: 0;
+}
+
+main .imageFlottanteDroite, main .imageFlottanteGauche{
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 1024px){
+    *{
+        transition: 0.3s;
+    }
+
+    main img{
+        width: 500px;
+    }
+
+    .imageFlottanteDroite{
+        float: right;
+        margin-left: 30px;
+        margin-bottom: 15px;
+    }
+
+    .imageFlottanteGauche{
+        float: left;
+        margin-right: 30px;
+        margin-bottom: 15px;
+    }
+
+    nav{
+        display: flex;
+        align-items: center;
+    }
+
+    nav p{
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+
+    .logo{
+        flex: 1;
+    }
+
+    nav ul{
+        display: flex;
+    }
+
+    nav li a{
+        margin-left: 30px;
+    }
+
+    nav li:nth-of-type(4) a{
+        padding-right: 0;
+    }
+}
