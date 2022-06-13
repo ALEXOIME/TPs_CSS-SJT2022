@@ -4,13 +4,12 @@
     font-family: sans-serif;
 }
 
-h1,h2{
-    margin: 40px 0;
+header{
+    background-color: #000000;
 }
 
-main{
-    max-width: 1150px;
-    margin: auto;
+h1,h2{
+    margin: 40px 0;
 }
 
 main .text{
@@ -19,4 +18,20 @@ main .text{
 
 main img{
     width: 300px;
+}
+
+article div .imageFlottanteDroite {float: right;} article div .imageFlottanteGauche {float: left;}
+
+header ul{
+    display: flex;
+    list-style: none;
+    text-align: right;
+}
+
+nav ul li{
+    margin: 25px auto;
+}
+
+ul li .lien{
+    color: #ffffff;
 }
